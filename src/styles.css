@@ -32,6 +32,7 @@ h1 {
     text-decoration-thickness: 4px;
 }
 
+
 form {
     border: black solid 4px;
     padding: 15px;
@@ -43,6 +44,17 @@ form h1 {
     justify-self: center;
     margin-left: 500px;
     
+}
+
+.instruction-btn {
+    margin-left: 100px;
+}
+
+.instruction-article {
+    
+    max-width: 750px;
+    margin: 0 auto;
+    top: 500px;
 }
 
 section {
