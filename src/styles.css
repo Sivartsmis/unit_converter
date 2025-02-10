@@ -26,8 +26,14 @@ h1 {
     font-weight: bold;
 }
 
+.main-title {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 4px;
+}
+
 form {
-    border: black solid 1px;
+    border: black solid 4px;
     padding: 15px;
 }
 
