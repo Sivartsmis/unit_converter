@@ -21,8 +21,10 @@
                 </section>
                 <section>
                     <input type="text" value="1">
-                    <select class="form-control"  id='unitOne' name='unitOne' onClick="getConversion()"></select>
-                    <p class="unitOneText">Test</p>
+                    <select class="form-control"  id='unitOne' name='unitOne' onClick="getConversion()">
+                        <option class="default-option">inch</option>
+                    </select>
+                    <p class="unitOneText">1 inch is ~ 25.4 mm</p>
                 </section>
             </section>
             <h1>=</h1>
@@ -32,9 +34,11 @@
                     <h4>Qty</h4>
                     <h4>Unit</h4>
                 </section>
-                <input type="text" value="1">
-                <select class="form-control"  id='unitTwo' name='unitTwo'></select>
-                <p class="unitTwoText">Test</p>
+                <input type="text" value="25.4">
+                <select class="form-control"  id='unitTwo' name='unitTwo'>
+                    <option class="default-option">milimeter</option>
+                </select>
+                <p class="unitTwoText">1 milimeter is ~0.039 inches</p>
             </section>
         </form>
         <article class="instruction-article" popover id="instructions">
